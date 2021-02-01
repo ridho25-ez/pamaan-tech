@@ -1,0 +1,860 @@
+body{
+    overflow-x: hidden;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar-landing-pages */
+
+.navbar{
+    background: rgba(4, 45, 100);
+}
+
+.navbar-brand{
+    color: white !important;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 90px; 
+}
+
+.navbar-nav{
+    margin-right: 165px;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 18px;
+    margin-left: 48px;
+}
+
+.nav-link:hover {
+    color: rgb(153, 147, 147) !important;
+}
+
+.form-btn{
+    margin-left: 173px;
+}
+
+.btn-login{
+    width: 100px;
+    background: #EB5757;
+    border: #EB5757;
+    border-radius: 10px;
+    
+}
+
+.btn-login:hover{
+    background: #8f3535;
+    border: #8f3535;
+} 
+
+/* navbar-pages */
+
+.navbar-brand-pages{
+    background: #EB5757;
+    width: 67px;
+    height: 47px;
+    border-radius: 5px;
+    margin-left: 145px; 
+}
+
+.pages{
+    margin-right: 135px;
+}
+
+.btn-home-pages{
+    width: 130px;
+    background: #EB5757;
+    border: #EB5757;
+    border-radius: 40px;
+}
+
+.btn-home-pages:hover{
+    background: #b44545;
+    border: #b44545;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 23px;
+    background: 100% #333333;
+}
+
+.icon{
+    margin-top: 58px;
+}
+
+.icon a{
+    margin-right: 31px;
+    background: none;
+    outline: none;
+    color: #333333;
+}
+
+.informasi{
+    margin-top: -20px;
+    margin-left: 700px;
+}
+
+.informasi li{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.informasi a{
+    color: #B5B5B5;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.informasi a:hover{
+    color: rgb(114, 104, 104);
+}
+
+.copyrights{
+    color: #B5B5B5;
+    font-size: 15px;
+    margin-bottom: 43px;
+}
+
+/* breadcrumb */
+
+.breadcrumb{
+    background: none;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+}
+
+
+                        /* Pages */
+    /* landing-pages */
+    
+.jb-1{
+    background: rgba(1, 1, 1, 0.64);
+    background-size: cover;
+    margin-top: -67px;
+}
+
+.hero{
+    padding-left: 200px;
+    margin-top: 100px;
+    color: white;
+}
+
+.hero h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hero p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn-our-services{
+    width: 120px;
+    background: #E8B533;
+    border: #E8B533;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.btn-our-services:hover{
+    background: #8f6e1a;
+    border: #8f6e1a;
+}
+
+.deskripsi{
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+
+.col p{
+    width: 285px;
+    margin-top: 65px;
+}
+
+    /* login-pages */
+
+.judul{
+    text-align: center;
+    font-size: 70px;
+}
+
+.isi{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.data{
+    margin-top: 60px;
+}
+
+.form-group{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.email{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 57px;
+}
+
+.password{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 57px;
+}
+
+.form-group label{
+    font-size: 20px;
+}
+
+.btn-login-account{
+    width: 150px;
+    background: #EB5757;
+    border: #EB5757;
+    border-radius: 40px;
+    margin-bottom: 9px;
+}
+    
+.btn-login-account:hover{
+    background: #b44545;
+    border: #b44545;
+} 
+    
+.forgot-password{
+    color: #828282;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.forgot-password:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+.judul-forgot-password-2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.text-right{
+    margin-bottom: 100px;
+}
+
+.btn-forgot-password-2{
+    width: 100px;
+    background: #01354B;
+    border: #01354B;
+    border-radius: 40px;
+    margin-bottom: 9px;
+}
+
+.btn-forgot-password-2:hover{
+    background: #066f9c;
+    border: #066f9c;
+}
+
+.email-forgot{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 57px;
+}
+
+.number{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 57px;
+}
+
+
+.judul-forgot-password-3{
+    font-size: 40px;
+}
+
+.code{
+    background: #FFFFFF;
+    border: #ffffff;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    text-align: center;
+    outline: none;
+}
+
+.new-password{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 57px;
+}
+
+.confirmed-password{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 57px;
+}
+
+.btn-forgot-password-3{
+    width: 100px;
+    background: #01354B;
+    border: #01354B;
+    border-radius: 40px;
+}
+    
+.btn-forgot-password-3:hover{
+    background: #066f9c;
+    border: #066f9c;
+}
+
+    /* Product-pages */
+
+.btn-cart{
+    width: 130px;
+    background:#EB5757;
+    border: #EB5757;
+    border-radius: 40px;
+}
+
+.btn-cart:hover{
+    background: #b44545;
+    border: #b44545;
+}
+
+.product{
+    margin-bottom: 80px;
+}
+
+.list-product{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    height: 365px;
+    width: 236px;
+    outline: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.list-product:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.foto-product img{
+    border-radius: 10px;
+}
+
+.deskripsi-product{
+    font-size: 20px;
+    color: black;
+}
+
+.detail-product{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    outline: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.detail-product:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.foto-detail-product img{
+    border-radius: 10px;
+}
+
+.deskripsi-detail-product{
+    font-size: 20px;
+    color: black;
+}
+
+.btn-add-item-detail-product{
+    width: 130px;
+    background:#D65458;
+    border: #D65458;
+    border-radius: 10px;
+}
+
+.btn-add-item-detail-product:hover{
+    background: #793234;
+    border: #793234;
+}
+
+        /* cart-pages */
+
+.btn-add-item-cart{
+    width: 130px;
+    background:#EB5757;
+    border: #EB5757;
+    border-radius: 10px;
+}
+
+.btn-add-item-cart:hover{
+    background: #b44545;
+    border: #b44545;
+}
+
+.cart-proses{
+    margin-right: 127px;
+    margin-top: 50px;
+    margin-bottom: 195px;
+}
+
+.cart-product{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    height: relative;
+    width: 94%;
+    outline: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cart-product:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.foto-cart img{
+    border-radius: 10px;
+}
+
+.deskripsi-cart{
+    font-size: 20px;
+    color: black;
+}
+
+        /* portofolio-pages */
+
+.portofolio{
+    margin-top: 60px;
+    margin-bottom: 143px;
+}
+
+.template-portofolio{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    height: 900px;
+    width: 90%;
+    outline: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.template-portofolio:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.foto-portofolio img{
+    border-radius: 10px;
+}
+
+.deskripsi-portofolio{
+    font-size: 20px;
+    color: black;
+}
+
+        /* member-pages */
+
+.member{
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+.list-member{
+    background: #1C3961;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    height: 263px;
+    width: 182px;
+    outline: none;
+    text-decoration: none;
+    margin-right: 17px;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+.list-member:hover{
+    text-decoration: none;
+}
+
+.foto-member img{
+    border-radius: 20px;
+    height: 182px;
+}
+
+.deskripsi-member{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.detail-member{
+    margin-top: 60px;
+    margin-bottom: 132px;
+    margin-left: 70px;
+}
+
+.list-detail-member{
+    background: #1C3961;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    height: 417px;
+    width: 290px;
+    outline: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.foto-detail-member img{
+    border-radius: 20px;
+    width: 291px;
+    height: 290px;
+}
+
+.deskripsi-detail-member{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+        /* patnership-pages */
+
+.patnership{
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.template-patnership{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    height: 452px;
+    width: 50%;
+    outline: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.foto-patnership img{
+    border-radius: 10px;
+}
+
+.deskripsi-patnership{
+    font-size: 20px;
+    color: black;
+}
+
+        /* contact */
+
+.contact{
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.template-contact{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    height: 214px;
+    width: 80%;
+    outline: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.template-contact:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.foto-contact img{
+    border-radius: 10px;
+}
+
+.deskripsi-contact{
+    font-size: 20px;
+    color: black;
+}
+
+                /* tab-version */
+
+@media (min-width: 981px) and (max-width: 1400px) {
+    body{
+    overflow-x: hidden;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } 
+
+        /*navbar-landing-pages  */
+
+    .navbar-brand{
+        margin-left: 0px; 
+    }
+
+    .navbar-nav{
+        margin-right: 30px;
+    }
+    
+    .nav-link{
+        margin-left: 50px;
+    }
+    
+    .form-btn{
+        margin-left: 100px;
+    }
+
+        /* navbar-pages */
+    
+    .navbar-brand-pages{
+        margin-left: 0px; 
+    }
+
+    .pages{
+        margin-right: 66px;
+    }
+
+         /* footer */
+        
+    .informasi{
+        width: 550px;
+        margin-left: 400px;
+    }
+}
+
+
+                /* Mobile-version */
+
+@media (max-width: 980px) {
+    body{
+    overflow-x: hidden;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        /*navbar-landing-pages  */
+
+    .navbar-brand{
+        margin-left: 0px; 
+    }
+    
+    .navbar-nav{
+        margin: 0px !important;
+    }
+    
+    .nav-link{
+        margin: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .form-btn{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .btn-login{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+                /* navbar-pages */
+
+    .navbar-brand-pages{
+        margin: 0px;
+    }
+    
+    .btn-home-pages{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+                
+                /* footer */
+        
+    .footer{
+        margin-top: 23px;
+        background: 100% #333333;
+    }
+
+    .icon{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .icon a{
+        margin: 20px;
+    }
+
+    .informasi{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .informasi ul{
+        padding: 0px;
+    }
+
+    .informasi li{
+        margin: 0px;
+        margin-bottom: 20px;
+        float: none;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .copyrights{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+                /* breadcrumb */
+    
+    .breadcrumb{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+                                    /* pages */
+
+                /* landing-pages */
+        .hero{
+            padding-left: 25px;
+            margin-top: 80px;
+        }
+        
+        .deskripsi{
+            margin-left: 20px;
+        }
+        
+        .col p{
+            text-align: justify;
+            margin-top: 40px;
+        }
+
+                /* login-pages */
+
+        .form-group{
+            width: 80%;
+        }
+
+        .code{
+            height: 50px;
+            width: 50px;
+            margin-right: 10px !important;
+        }
+
+                /* product-pages */
+
+        .product{
+            margin-top: -100px;
+        }
+        
+        .detail-product{
+            margin-top: 80px;
+            width: 90%;
+        }
+
+                /* cart-pages */
+        
+        .cart-product{
+            width: 90%;
+            margin-top: 150px;
+            margin-bottom: 30px;
+        }
+
+        .cart-proses{
+            margin-top: 50px;
+            margin-right: 0px;
+        }
+        
+                /* portofolio-pages */
+
+        .portofolio{
+            margin-top: 20px;
+        }
+
+        .template-portofolio{
+            height: 400px;
+        }
+
+                /* member-pages */
+
+        .detail-member{
+            margin-top: 10px;
+            margin-left: 0px;
+            text-align: center;
+        }
+
+                /* patnership-pages */
+
+        .template-patnership{
+            height: 450px;
+            width: 90%;
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+                
+                /* contact-pages */
+
+        .template-contact{
+            height: 200px;
+            width: 90%;
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+}
